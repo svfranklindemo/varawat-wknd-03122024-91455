@@ -12,12 +12,12 @@
 
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --background-color: #1a1a1a;
+  --light-color: #000000;
+  --dark-color: #ff0000;
+  --text-color: #ffffff;
+  --link-color: #f5f4f4;
+  --link-hover-color: #000fff;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -259,36 +259,4 @@ main .section.highlight {
 /* hidden section */
 main .section.hidden {
   display: none;
-}
-
-/* footer */
-.footer{
-.default-content-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.default-content-wrapper h3,
-.default-content-wrapper ul {
-  flex: 1 1 25%; /* Each column takes up 25% of the container's width */
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 0;
-}
-
-.default-content-wrapper ul {
-  padding: 0;
-  list-style: none;
-}
-
-.default-content-wrapper ul li {
-  margin: 5px 0;
-}
-}
-
-/* hero */
-.hero{
-  @media (width >= 900px) {
-  min-height: 600px !important;
-  }
 }
