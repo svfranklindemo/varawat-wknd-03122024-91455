@@ -1,1 +1,32 @@
 
+/* footer */
+.footer{
+.default-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+.default-content-wrapper h3,
+.default-content-wrapper ul {
+  flex: 1 1 25%; /* Each column takes up 25% of the container's width */
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+}
+ 
+.default-content-wrapper ul {
+  padding: 0;
+  list-style: none;
+}
+ 
+.default-content-wrapper ul li {
+  margin: 5px 0;
+}
+}
+ 
+/* hero */
+.hero{
+  @media (width >= 900px) {
+  min-height: 600px !important;
+  }
+}
