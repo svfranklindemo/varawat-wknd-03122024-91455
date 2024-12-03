@@ -12,11 +12,11 @@
 
 :root {
   /* colors */
-  --background-color: #ffffff;
-  --light-color: #000000;
-  --dark-color: #ff0000;
-  --text-color: #000000;
-  --link-color: #0000ff;
+  --background-color: #000000;
+  --light-color: #ff0000;
+  --dark-color: #00ff00;
+  --text-color: #00ffff;
+  --link-color: #ffff00;
   --link-hover-color: #000fff;
 
   /* fonts */
@@ -259,4 +259,36 @@ main .section.highlight {
 /* hidden section */
 main .section.hidden {
   display: none;
+}
+
+/* footer */
+.footer{
+.default-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.default-content-wrapper h3,
+.default-content-wrapper ul {
+  flex: 1 1 25%; /* Each column takes up 25% of the container's width */
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+}
+
+.default-content-wrapper ul {
+  padding: 0;
+  list-style: none;
+}
+
+.default-content-wrapper ul li {
+  margin: 5px 0;
+}
+}
+
+/* hero */
+.hero{
+  @media (width >= 900px) {
+  min-height: 600px !important;
+  }
 }
